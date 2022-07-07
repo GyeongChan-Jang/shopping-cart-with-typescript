@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "airpot",
+    "price": 200.99,
+    "imgUrl": "/imgs/airpot.png"
+  },
+  {
+    "id": 2,
+    "name": "keyboard",
+    "price": 100,
+    "imgUrl": "/imgs/kycron.jpg"
+  },
+  {
+    "id": 3,
+    "name": "mouse",
+    "price": 110.05,
+    "imgUrl": "/imgs/logitech.jpg"
+  },
+  {
+    "id": 4,
+    "name": "sony",
+    "price": 400,
+    "imgUrl": "/imgs/sony.webp"
+  }
+]
