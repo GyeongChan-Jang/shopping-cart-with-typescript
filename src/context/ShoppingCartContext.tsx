@@ -1,4 +1,6 @@
 import { createContext, ReactNode, useContext, useState } from 'react'
+import { ShoppingCart } from '../components/ShoppingCart'
+import { useLocalStorage } from '../hooks/useLocalStorage'
 
 // 쇼핑카트 컨텍스트 생성 -> 생성시 초기값 객체와 타입 선언
 const ShoppingCartContext = createContext({} as ShoppingCartContext)
@@ -35,7 +37,10 @@ export function useShoppingCart() {
 
 export function ShoppingCartProvider({ children }: ShoppingCartProviderProps) {
   const [isOpen, setIsOpen] = useState(false)
-  const [cartItems, setCartItems] = useState<CartItem[]>([])
+  const [cartItems, setCartItems] = useLocalStorage<CartItem[]>(
+    'shopping-cart',
+    []
+  )
 
   // ??
   const cartQuantity = cartItems.reduce(
@@ -104,6 +109,10 @@ export function ShoppingCartProvider({ children }: ShoppingCartProviderProps) {
       }}
     >
       {children}
+      <ShoppingCart isOpen={isOpen} />
     </ShoppingCartContext.Provider>
   )
+}
+function useLocalStroeage<T>(arg0: string, arg1: never[]): [any, any] {
+  throw new Error('Function not implemented.')
 }
