@@ -57,6 +57,7 @@ export function ShoppingCartProvider({ children }: ShoppingCartProviderProps) {
 
   function increaseCartQuantity(id: number) {
     setCartItems((currItems) => {
+      console.log(currItems)
       if (currItems.find((item) => item.id === id) == null) {
         // 카트에 현재 아이템이 없는 경우 아이템 추가!
         return [...currItems, { id, quantity: 1 }]
@@ -91,7 +92,7 @@ export function ShoppingCartProvider({ children }: ShoppingCartProviderProps) {
 
   function removeFromCart(id: number) {
     setCartItems((currItems) => {
-      return currItems.filter((item) => item.id === id)
+      return currItems.filter((item) => item.id !== id)
     })
   }
 

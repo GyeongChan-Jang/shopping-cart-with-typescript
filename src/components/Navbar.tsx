@@ -22,7 +22,7 @@ export function Navbar() {
         </Nav>
         {cartQuantity > 0 && (
           <Button
-            style={{ width: '3rem', height: '3rem' }}
+            style={{ width: '3rem', height: '3rem', position: 'relative' }}
             variant="outline-primary"
             className="rounded-circle"
             onClick={openCart}
@@ -50,7 +50,7 @@ export function Navbar() {
                 position: 'absolute',
                 bottom: 0,
                 right: 0,
-                transform: 'translate(-25%, -25%)'
+                transform: 'translate(25%, 25%)'
               }}
             >
               {cartQuantity}
