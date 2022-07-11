@@ -42,7 +42,6 @@ export function ShoppingCartProvider({ children }: ShoppingCartProviderProps) {
     []
   )
 
-  // ??
   const cartQuantity = cartItems.reduce(
     (quantity, item) => item.quantity + quantity,
     0
