@@ -16,27 +16,7 @@
 
 > src 폴더 구조
 
-📦src
-┣ 📂components
-┃ ┣ 📜CartItems.tsx
-┃ ┣ 📜Navbar.tsx
-┃ ┣ 📜ShoppingCart.tsx
-┃ ┗ 📜StoreItem.tsx
-┣ 📂context
-┃ ┗ 📜ShoppingCartContext.tsx
-┣ 📂data
-┃ ┗ 📜items.json
-┣ 📂hooks
-┃ ┗ 📜useLocalStorage.tsx
-┣ 📂pages
-┃ ┣ 📜About.tsx
-┃ ┣ 📜Home.tsx
-┃ ┗ 📜Store.tsx
-┣ 📂utilities
-┃ ┗ 📜formatCurrency.ts
-┣ 📜App.tsx
-┣ 📜main.tsx
-┗ 📜vite-env.d.ts
+<img width="316" alt="스크린샷 2022-07-11 오후 9 36 45" src="https://user-images.githubusercontent.com/90392240/178265746-2b860b24-e2ae-4197-a07d-9d862779cf3e.png">
 
 # 배운 것
 
