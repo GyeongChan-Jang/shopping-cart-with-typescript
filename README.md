@@ -1,4 +1,4 @@
-# 쇼핑 장바구니 만들기 with type script
+# 쇼핑 장바구니 만들기 with TypeScript
 
 ![shopping-cart](https://user-images.githubusercontent.com/90392240/178251826-7ef2ce9e-fee5-400a-8efb-dec64d3de9a3.gif)
 
@@ -15,27 +15,28 @@
 - context API
 
 > src 폴더 구조
-> 📦src
-> ┣ 📂components
-> ┃ ┣ 📜CartItems.tsx
-> ┃ ┣ 📜Navbar.tsx
-> ┃ ┣ 📜ShoppingCart.tsx
-> ┃ ┗ 📜StoreItem.tsx
-> ┣ 📂context
-> ┃ ┗ 📜ShoppingCartContext.tsx
-> ┣ 📂data
-> ┃ ┗ 📜items.json
-> ┣ 📂hooks
-> ┃ ┗ 📜useLocalStorage.tsx
-> ┣ 📂pages
-> ┃ ┣ 📜About.tsx
-> ┃ ┣ 📜Home.tsx
-> ┃ ┗ 📜Store.tsx
-> ┣ 📂utilities
-> ┃ ┗ 📜formatCurrency.ts
-> ┣ 📜App.tsx
-> ┣ 📜main.tsx
-> ┗ 📜vite-env.d.ts
+
+📦src
+┣ 📂components
+┃ ┣ 📜CartItems.tsx
+┃ ┣ 📜Navbar.tsx
+┃ ┣ 📜ShoppingCart.tsx
+┃ ┗ 📜StoreItem.tsx
+┣ 📂context
+┃ ┗ 📜ShoppingCartContext.tsx
+┣ 📂data
+┃ ┗ 📜items.json
+┣ 📂hooks
+┃ ┗ 📜useLocalStorage.tsx
+┣ 📂pages
+┃ ┣ 📜About.tsx
+┃ ┣ 📜Home.tsx
+┃ ┗ 📜Store.tsx
+┣ 📂utilities
+┃ ┗ 📜formatCurrency.ts
+┣ 📜App.tsx
+┣ 📜main.tsx
+┗ 📜vite-env.d.ts
 
 # 배운 것
 
